@@ -30,7 +30,7 @@ export function ProjectCards() {
                     {projs.map((product, index) => (
                         <div key={index} className="card">
                             <div className="card-image-container">
-                                <img src={product.imageSrc} alt={product.name} />
+                            <img src={`${process.env.PUBLIC_URL}${product.imageSrc}`} alt={product.name} />
                             </div>
                             <p className="card-title">{product.name}</p>
                             <p className="card-des">{product.goal}</p>
