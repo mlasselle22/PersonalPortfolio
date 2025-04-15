@@ -1,0 +1,104 @@
+@import url(config.css);
+
+h1 {
+    color: var(--heading-color);
+    font-size: 8vw;
+    flex: 0 0 100%;
+    padding: 50px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 100px;
+    font-family:"Times New Roman", Times, serif;
+    background-color: var(--heading-bg-color)
+}
+
+h2{
+    width: 100%;
+    font-size: 4vw;
+    text-decoration: overline;
+    padding-top: 50px;
+}
+
+.experencesBg {
+    padding-top: 30px;
+    background-image: url("../public/images/cardsBackground.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: auto;
+    padding-bottom: 8vh;
+}
+
+.experenceCards {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+
+.colorExperenceCards{
+    color: var(--work-experience-heading-color) !important;
+    background-color: var(--work-experience-bg-color) !important;
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* Card styles */
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
+    width: 400px;
+    background-color: var(--card-bg-color);
+    color: var(--card-text-color);
+    border-radius: 10px;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.08),
+        -4px -4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1),
+        -4px -4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-company {
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card-title {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-des {
+    text-align: left;
+    padding-left: 10px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 10vw;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+}
+
