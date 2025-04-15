@@ -9,7 +9,7 @@ export function About() {
       <div class="about-me">
         <div class="bg-image"></div>
         <div class="profile">
-            <img src="/images/HeadShot.jpg" class="headshot"></img>
+            <img src={`${process.env.PUBLIC_URL}/images/HeadShot.png`} class="headshot"></img>
             <h1 class="profile-name">Matthew Lasselle</h1>
             <div class="break"></div>
             <p class="occupation"></p>

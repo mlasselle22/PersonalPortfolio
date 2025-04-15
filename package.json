@@ -1,7 +1,7 @@
 {
   "name": "matthew-personal-website",
   "version": "0.1.0",
-  "homepage": "https://mlasselle22.github.io/PersonalPortfolio",
+  "homepage": "https://mlasselle22.github.io/PersonalPortfolio/",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -13,8 +13,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
